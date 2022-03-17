@@ -1,3 +1,5 @@
+![Logo](https://github.com/shizotoaster/castiel/blob/main/logo.png)
+
 # castiel
 Кринжовый и местами странный язык программирования, созданный в качестве школьного проекта
 
