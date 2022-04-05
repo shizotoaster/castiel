@@ -33,7 +33,7 @@ public class Main{
   }
 }
 private class Counter{
-  int fun count(a, b){
+  int fun count(a (int), b (int)){
     return a + b;
   }
 }
@@ -51,6 +51,23 @@ public Class Main{
   //Опустим отсутствие модуля system и math, потом адаптирую под них
   write(mod(10,4));
 }
+```
+## Шаблоны
+Принцип работы я ~~украл~~ позаимствовал из С++
+```
+Tmp TEMP<Тип аргумента arg1, Тип аргумента 2 arg2, ..., Тип аргумента N argN>(){
+  //Тут код
+}
+```
+
+```Castiel
+Tmp TEMP<Тип аргумента arg1, Тип аргумента 2 arg2>{
+  write(arg1 + ' ' + arg2);
+}
+
+TEMP fun intstr((int), (str));
+
+intstr(1, ' - это цифра))');
 ```
 
 # Типы данных
