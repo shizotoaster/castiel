@@ -17,6 +17,46 @@ public Class Main {
 
 }
 ```
+* extends
+  Классы можно расширить, добавив им функционала (дополнительные методы)
+  ```Castiel
+  public Class a {
+    void fun a(){
+    
+    }
+  }
+  
+  public Class b extends a{
+    void fun b(){
+      a();
+    }
+  }
+  ```
+* implements
+* Позволяет использовать методы класса, а также перезаписывать их с помощью пометки ```--ovr``
+  ```Castiel
+  public Class a {
+    void fun a(){
+    
+    }
+  }
+  
+  public Class b {
+    void fun b(){
+    
+    }
+  }
+  
+  public Class c implements a, b{
+    void fun c(){
+      a();
+    }
+    --ovr
+    void fun a(){
+      write('Это перезапись метода');
+    }
+  }
+  ```
 ## Методы и функции
 Методы это ОЧЕНЬ просто. Из-за структуры языка все функции
 ```
